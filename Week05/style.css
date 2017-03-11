@@ -1,0 +1,23 @@
+            /* Style CSS */
+            body {
+                background-color: coral;
+                font-family: "arial"
+            }
+            a {
+                color: blue;
+                font-weight: bold 
+            }
+            /* Paragraphs and lists */
+            p, li {
+                font-size: 16px;
+                color: ghostwhite
+            }
+            div {
+                background-color: cornflowerblue;
+                color: white;
+                border-width: 7px;
+                border-style: dotted
+            }
+            h1 {
+                color: azure
+            }
