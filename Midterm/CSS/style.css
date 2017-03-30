@@ -1,0 +1,45 @@
+/* Style CSS */
+
+*, *:before, *:after {
+	/*show this as a fix for two column layout*/
+  box-sizing: border-box;
+}
+body {
+    background-image: url(../Images/Image_001.gif)
+}
+h1 {
+   font-family: 'Questrial', sans-serif;
+    font-size: 36pt;
+    text-align: center;
+    padding: 0px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:0px;
+}
+h2 {
+   font-family: 'Baloo Bhaina', cursive;
+    font-size: 56pt;
+    text-align: center;
+    padding: 0px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:0px;
+    
+}
+#Emojis {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+img {
+    width: 230px
+}
+img:hover {
+  background-image: url(../Images/Image_004.gif);
+     border-radius: 10%
+}
+
