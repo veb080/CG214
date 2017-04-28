@@ -1,0 +1,156 @@
+/* Style CSS */
+
+*, *:before, *:after {
+	/*show this as a fix for two column layout*/
+  box-sizing: border-box;
+}
+
+div {
+    width: 910px;
+  margin-left: auto;
+    margin-right: auto
+    
+}
+#logo {
+    display: inline-block;
+    float: left;
+}
+#content {
+    display: inline-block;
+    float: right;
+    position: relative;
+    left: 600px;
+    bottom: 60px;
+
+}
+.search {
+    display: inline-block;
+    position: relative;
+    left: 340px;
+    bottom: 40px;
+}
+
+    body {
+  width: 90%;
+  max-width: 900px;
+  min-width: 500px;
+  margin: 0 auto;
+    
+}
+
+
+#header {
+    height: 80px;
+    border-bottom: 1px solid grey;
+}
+
+#main-logo {
+    width: 150px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+
+/*Indent the text close to center*/
+.search input { 
+    text-indent: 60px;
+    font-size: 13px;
+    color: #ededed;
+
+}
+
+#searchBox{
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ededed;
+}
+
+#button{
+    font-size: 14px;
+    margin-left:10px;
+    margin-right: 10px;
+    height: 100%;
+    color: lightskyblue;
+    border-style: none;
+    background: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#gettheapp {
+    color: white;
+    background: lightskyblue;
+}
+#follow {
+    border: 2px solid lightskyblue;
+        font-size: 14px;
+    margin-left:10px;
+    margin-right: 10px;
+    height: 100%;
+    color: lightskyblue;
+    background: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+img {
+   padding: 4px;
+}
+#bio {
+    display: inline-block;
+    width: 600px;
+    margin-left: 70px;
+}
+footer {
+    text-align: left;
+    padding: 10px;
+    margin-top: 50px;
+}
+#right {
+    text-align: right;
+}
+#footernav {
+    color: gray;
+    font-size: 9px; 
+    float: left;
+    width: 600px;
+}
+button {
+    font-size: 14px;
+    margin-left:10px;
+    margin-right: 10px;
+    height: 100%;
+    color: gray;
+    border-style: none;
+    background: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#loadmore {
+    font-size: 14px;
+    color: lightskyblue;
+    border: 2px solid lightskyblue;
+    width: 100px;
+    height: 100px;
+    background: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+#buttoncontainer {
+    width: 100px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+p {
+    display: inline-block;
+}
+h2 {
+     display: inline-block;
+}
+#copyright {
+    float: right;
+    width: 200px;
+    text-align: right;
+    
+}
