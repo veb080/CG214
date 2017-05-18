@@ -1,0 +1,261 @@
+/* Style CSS */
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sorts Mill Goudy', serif;
+    background-image: url(Images/wood.jpg)
+}
+
+img {
+    /* all images */
+    position: absolute;
+}
+
+#book {
+    /* scrapbook */
+    width: 90%;
+    height: 90%;
+    left: 5%;
+    top: 10%;
+    bottom: 5%;
+    /*changed z-index so it's beneath the other elements*/
+    z-index: -100;
+}
+
+#image1 {
+    /* top left, left page */
+    height: 40%;
+    left: 20%;
+    top: 17%;
+    border: 4px solid white;
+    /* image tilt */
+    transform: rotate(-8deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#image1:hover {
+    /* image expansion */
+    position:absolute;
+    top: 2%;
+    left: 20%;
+    transform: rotate(0deg);
+    width:400px;
+    height:auto;
+    display:block;
+    z-index:999;
+    transition: all 0s ease-in-out 0s;
+}
+
+#image2 {
+    /* top right, right page */
+    width: 20%;
+    right: 20%;
+    top: 23.5%;
+    border: 4px solid white;
+    /* image tilt */
+    transform: rotate(7deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#image2:hover {
+    /* image expansion */
+    position:absolute;
+    top: 10%;
+    right: 20%;
+    transform: rotate(0deg);
+    width: 700px;
+    height:auto;
+    display:block;
+    z-index:999;
+    transition: all 0s ease-in-out 0s;
+}
+
+#image3 {
+    /* top right, left page */
+    width: 15%;
+    left: 33%;
+    top: 20%;
+    border: 4px solid white;
+    /* image tilt */
+    transform: rotate(7deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#image3:hover {
+    /* image expansion */
+    position:absolute;
+    top: 10%;
+    right: 20%;
+    transform: rotate(0deg);
+    width: 700px;
+    height:auto;
+    display:block;
+    z-index:999;
+    transition: all 0s ease-in-out 0s;
+}
+
+#image4 {
+    /* middle, left page */
+    width: 15%;
+    left: 33%;
+    top: 50%;
+    border: 4px solid white;
+    /* image tilt */
+    transform: rotate(2deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#image4:hover {
+    /* image expansion */
+    position:absolute;
+    top: 10%;
+    right: 20%;
+    transform: rotate(0deg);
+    width: 700px;
+    height:auto;
+    display:block;
+    z-index:999;
+    transition: all 0s ease-in-out 0s;
+}
+
+#image5 {
+    /* bottom left, left page */
+    width: 19%;
+    left: 19%;
+    top: 65%;
+    border: 4px solid white;
+    /* image tilt */
+    transform: rotate(8deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#image5:hover {
+    /* image expansion */
+    position:absolute;
+    top: 16%;
+    right: 20%;
+    transform: rotate(0deg);
+    width: 700px;
+    height:auto;
+    display:block;
+    z-index:999;
+    transition: all 0s ease-in-out 0s;
+}
+
+#image6 {
+    /* middle, right page */
+    width: 15%;
+    right: 32%;
+    top: 49%;
+    border: 4px solid white;
+    /* image tilt */
+    transform: rotate(-8deg);
+    transition: all 0.3s ease-in-out 0s;
+}
+
+#image6:hover {
+    /* image expansion */
+    position:absolute;
+    top: 14%;
+    right: 20%;
+    transform: rotate(0deg);
+    width: 700px;
+    height:auto;
+    display:block;
+    z-index:998;
+    transition: all 0s ease-in-out 0s;
+}
+
+h1 {
+    /* VANESSA BENNISH PHOTOGRAPHY */
+    color: black;
+    position: absolute;
+    left: 26%;
+    /* offset-x | offset-y | blur-radius | color */
+    text-shadow: 0.5px 0.5px 28px white;
+}
+
+h2 {
+    /* blog title */
+    width: 50%;
+    font-size: 16pt;
+    text-align: center;
+    position: absolute;
+    right: 8%;
+    top: 13%;
+    transform: rotate(1.5deg);
+    color: black;
+}
+
+h4 {
+    /* date */
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    right: 4%;
+    top: 55%;
+    color: black;
+}
+
+#text { 
+    /* text passage */
+    width: 31%;
+    top: 69%;
+    text-align: center;
+    position: absolute;
+    right: 17%;
+    transform: rotate(-3deg);
+    color: black;
+    text-decoration:  none;
+}
+
+#right {
+    /* right arrow */
+    width: 8%;
+    right: 3%;
+    top: 77%;
+}
+
+#left {
+    /* left arrow */
+    width: 8%;
+    left: 3%;
+    top: 77%;
+}
+
+a:link    {
+  /* Applies to all unvisited links */
+  text-decoration:  none;
+    color: black;
+}
+
+a:visited {
+  /* Applies to all visited links */
+  text-decoration:  none;
+    color: black;
+}
+
+#link {
+    /* web link */
+    width: 2.8%;
+    left: 2%;
+    top: 3%;
+}
+
+#insta {
+    /* instagram link */
+    width: 3%;
+    left: 2%;
+    top: 10%;
+}
+
+#facebook {
+    /* facebook link */
+    width: 3.3%;
+    left: 1.9%;
+    top: 17%;
+}
+
